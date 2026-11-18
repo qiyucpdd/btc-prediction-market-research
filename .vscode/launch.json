@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "BTC forecast \u00b7 watch live",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/run.mjs",
+      "args": [
+        "--watch"
+      ],
+      "console": "integratedTerminal"
+    }
+  ]
+}

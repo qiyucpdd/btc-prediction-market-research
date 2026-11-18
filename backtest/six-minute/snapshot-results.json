@@ -1,0 +1,147 @@
+{
+  "universe": 31892,
+  "chart_valid": 31607,
+  "paired": 31187,
+  "chart_correct": 25459,
+  "coverage": {
+    "paired": 31187,
+    "no_two_sided_book": 278,
+    "missing_candles": 189,
+    "no_quote": 142,
+    "missing_target": 96
+  },
+  "fit_n": 24322,
+  "embargo_days": 7,
+  "cutoff": 1789059600,
+  "holdout_weights": [
+    0.08049957019678873,
+    0.9088464119646227,
+    1.0454511824529507,
+    -0.030266438185864476
+  ],
+  "comparisons": [
+    {
+      "scope": "Retrospective fixed Worker",
+      "rounds": 31187,
+      "from_expiry": 1765427400,
+      "to_expiry": 1794864600,
+      "results": {
+        "all": {
+          "entries": 31187,
+          "wins": 25073,
+          "days": 341,
+          "gross": 1.662,
+          "net": -443.2,
+          "balance": 0.24,
+          "funded_trades": 2854,
+          "max_drawdown": 49.89,
+          "one_cent_worse": -755.07
+        },
+        "cap_only": {
+          "entries": 741,
+          "wins": 321,
+          "days": 286,
+          "gross": -6.39,
+          "net": -21.21,
+          "balance": 28.79,
+          "funded_trades": 741,
+          "max_drawdown": 30.23,
+          "one_cent_worse": -28.62
+        },
+        "frozen_trial": {
+          "entries": 97,
+          "wins": 31,
+          "days": 61,
+          "gross": -6.19,
+          "net": -8.13,
+          "balance": 41.87,
+          "funded_trades": 97,
+          "max_drawdown": 9.08,
+          "one_cent_worse": -9.1
+        }
+      }
+    },
+    {
+      "scope": "Chronological last fifth, earlier chart fit",
+      "rounds": 6363,
+      "from_expiry": 1789059600,
+      "to_expiry": 1794864600,
+      "results": {
+        "all": {
+          "entries": 6363,
+          "wins": 5010,
+          "days": 68,
+          "gross": -60.027,
+          "net": -151.68,
+          "balance": 0.0,
+          "funded_trades": 2940,
+          "max_drawdown": 50.63,
+          "one_cent_worse": -215.31
+        },
+        "cap_only": {
+          "entries": 99,
+          "wins": 34,
+          "days": 47,
+          "gross": -10.48,
+          "net": -12.46,
+          "balance": 37.54,
+          "funded_trades": 99,
+          "max_drawdown": 15.7,
+          "one_cent_worse": -13.45
+        },
+        "frozen_trial": {
+          "entries": 15,
+          "wins": 4,
+          "days": 8,
+          "gross": -2.22,
+          "net": -2.52,
+          "balance": 47.48,
+          "funded_trades": 15,
+          "max_drawdown": 3.11,
+          "one_cent_worse": -2.67
+        }
+      }
+    },
+    {
+      "scope": "After original chart fitting, exact Worker",
+      "rounds": 732,
+      "from_expiry": 1794192300,
+      "to_expiry": 1794864600,
+      "results": {
+        "all": {
+          "entries": 732,
+          "wins": 584,
+          "days": 8,
+          "gross": -11.64,
+          "net": -21.7,
+          "balance": 28.3,
+          "funded_trades": 732,
+          "max_drawdown": 25.97,
+          "one_cent_worse": -29.02
+        },
+        "cap_only": {
+          "entries": 9,
+          "wins": 2,
+          "days": 5,
+          "gross": -2.04,
+          "net": -2.22,
+          "balance": 47.78,
+          "funded_trades": 9,
+          "max_drawdown": 2.39,
+          "one_cent_worse": -2.31
+        },
+        "frozen_trial": {
+          "entries": 0,
+          "wins": 0,
+          "days": 0,
+          "gross": 0.0,
+          "net": 0.0,
+          "balance": 50.0,
+          "funded_trades": 0,
+          "max_drawdown": 0,
+          "one_cent_worse": 0.0
+        }
+      }
+    }
+  ]
+}

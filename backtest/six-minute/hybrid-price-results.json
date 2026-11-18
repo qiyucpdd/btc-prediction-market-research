@@ -1,0 +1,20 @@
+{
+  "paired_pnl_difference_per_candidate_95": [
+    -0.037284,
+    0.04336
+  ],
+  "later_fifth_monthly_forecasts": {
+    "candidates": 8,
+    "entries": 2,
+    "wins": 0,
+    "net": -0.92
+  },
+  "candidates": 310,
+  "priced_with_chart": 308,
+  "immediate_net_same_rows": -6.64,
+  "alternative_entries": 45,
+  "alternative_wins": 23,
+  "alternative_net": -6.02,
+  "alternative_one_cent_worse": -6.47,
+  "distinct_entry_days": 28
+}

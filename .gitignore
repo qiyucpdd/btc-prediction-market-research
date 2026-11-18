@@ -1,0 +1,20 @@
+# Local credentials and development state
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+.wrangler/
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Historical inputs, captures and local database exports
+*.csv
+*.csv.gz
+*.sqlite*
+*.db
+*.zip
+backtest/history.json
+backtest/six-minute/official-targets.json

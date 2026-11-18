@@ -1,0 +1,669 @@
+{
+  "monthly": {
+    "rounds": 29838,
+    "paired_changes": {
+      "chart": {
+        "helped": 309,
+        "hurt": 218,
+        "accuracy_difference_95": [
+          0.001537,
+          0.004569
+        ]
+      },
+      "incumbent": {
+        "helped": 495,
+        "hurt": 386,
+        "accuracy_difference_95": [
+          0.001705,
+          0.005644
+        ]
+      },
+      "book": {
+        "helped": 128,
+        "hurt": 112,
+        "accuracy_difference_95": [
+          -0.000471,
+          0.001547
+        ]
+      }
+    },
+    "scores": {
+      "hybrid": {
+        "correct": 24091,
+        "rounds": 29838,
+        "brier": 0.135199
+      },
+      "chart": {
+        "correct": 24000,
+        "rounds": 29838,
+        "brier": 0.136624
+      },
+      "book": {
+        "correct": 24075,
+        "rounds": 29838,
+        "brier": 0.134909
+      },
+      "incumbent": {
+        "correct": 23982,
+        "rounds": 29838,
+        "brier": 0.138124
+      }
+    },
+    "entries_same_rule": {
+      "hybrid": {
+        "entries": 310,
+        "wins": 236,
+        "days": 52,
+        "fixed_20_budget": {
+          "starting_balance": 100,
+          "ending_balance": 6.52,
+          "funded": 245,
+          "wins": 189
+        },
+        "gross": -1.08,
+        "net": -6.36,
+        "worse_cent": -9.46
+      },
+      "chart": {
+        "entries": 1673,
+        "wins": 1204,
+        "days": 298,
+        "fixed_20_budget": {
+          "starting_balance": 100,
+          "ending_balance": 10.7,
+          "funded": 133,
+          "wins": 97
+        },
+        "gross": 4.77,
+        "net": -24.76,
+        "worse_cent": -41.49
+      },
+      "book": {
+        "entries": 0,
+        "wins": 0,
+        "days": 0,
+        "fixed_20_budget": {
+          "starting_balance": 100,
+          "ending_balance": 100.0,
+          "funded": 0,
+          "wins": 0
+        },
+        "gross": 0.0,
+        "net": 0.0,
+        "worse_cent": 0.0
+      },
+      "incumbent": {
+        "entries": 804,
+        "wins": 522,
+        "days": 244,
+        "fixed_20_budget": {
+          "starting_balance": 100,
+          "ending_balance": 4.78,
+          "funded": 48,
+          "wins": 28
+        },
+        "gross": 3.11,
+        "net": -12.16,
+        "worse_cent": -20.2
+      }
+    },
+    "hybrid_minus_book_brier_95": [
+      9.5e-05,
+      0.000505
+    ]
+  },
+  "later_fifth": {
+    "rounds": 6363,
+    "paired_changes": {
+      "chart": {
+        "helped": 84,
+        "hurt": 49,
+        "accuracy_difference_95": [
+          0.001586,
+          0.009152
+        ]
+      },
+      "incumbent": {
+        "helped": 124,
+        "hurt": 98,
+        "accuracy_difference_95": [
+          -0.00063,
+          0.00871
+        ]
+      },
+      "book": {
+        "helped": 27,
+        "hurt": 24,
+        "accuracy_difference_95": [
+          -0.001403,
+          0.002491
+        ]
+      }
+    },
+    "scores": {
+      "hybrid": {
+        "correct": 5047,
+        "rounds": 6363,
+        "brier": 0.142182
+      },
+      "chart": {
+        "correct": 5012,
+        "rounds": 6363,
+        "brier": 0.144783
+      },
+      "book": {
+        "correct": 5044,
+        "rounds": 6363,
+        "brier": 0.141651
+      },
+      "incumbent": {
+        "correct": 5021,
+        "rounds": 6363,
+        "brier": 0.144803
+      }
+    },
+    "entries_same_rule": {
+      "hybrid": {
+        "entries": 10,
+        "wins": 5,
+        "days": 10,
+        "fixed_20_budget": {
+          "starting_balance": 100,
+          "ending_balance": 65.91,
+          "funded": 10,
+          "wins": 5
+        },
+        "gross": -1.06,
+        "net": -1.26,
+        "worse_cent": -1.36
+      },
+      "chart": {
+        "entries": 517,
+        "wins": 342,
+        "days": 68,
+        "fixed_20_budget": {
+          "starting_balance": 100,
+          "ending_balance": 14.51,
+          "funded": 57,
+          "wins": 40
+        },
+        "gross": -31.16,
+        "net": -40.19,
+        "worse_cent": -45.36
+      },
+      "book": {
+        "entries": 0,
+        "wins": 0,
+        "days": 0,
+        "fixed_20_budget": {
+          "starting_balance": 100,
+          "ending_balance": 100.0,
+          "funded": 0,
+          "wins": 0
+        },
+        "gross": 0.0,
+        "net": 0.0,
+        "worse_cent": 0.0
+      },
+      "incumbent": {
+        "entries": 261,
+        "wins": 154,
+        "days": 56,
+        "fixed_20_budget": {
+          "starting_balance": 100,
+          "ending_balance": 14.72,
+          "funded": 35,
+          "wins": 23
+        },
+        "gross": -19.13,
+        "net": -24.07,
+        "worse_cent": -26.68
+      }
+    },
+    "hybrid_minus_book_brier_95": [
+      0.000198,
+      0.000855
+    ]
+  },
+  "monthly_breakdown": [
+    {
+      "first_expiry": 1767225600,
+      "scores": {
+        "chart": {
+          "correct": 2317,
+          "rounds": 2853,
+          "brier": 0.131176
+        },
+        "incumbent": {
+          "correct": 2326,
+          "rounds": 2853,
+          "brier": 0.133419
+        },
+        "hybrid": {
+          "correct": 2329,
+          "rounds": 2853,
+          "brier": 0.130578
+        },
+        "book": {
+          "correct": 2332,
+          "rounds": 2853,
+          "brier": 0.129446
+        }
+      },
+      "entries": {
+        "entries": 285,
+        "wins": 221,
+        "days": 31,
+        "fixed_20_budget": {
+          "starting_balance": 100,
+          "ending_balance": 6.52,
+          "funded": 245,
+          "wins": 189
+        },
+        "gross": 0.75,
+        "net": -4.05,
+        "worse_cent": -6.9
+      }
+    },
+    {
+      "first_expiry": 1769904000,
+      "scores": {
+        "chart": {
+          "correct": 2045,
+          "rounds": 2555,
+          "brier": 0.141022
+        },
+        "incumbent": {
+          "correct": 2048,
+          "rounds": 2555,
+          "brier": 0.140939
+        },
+        "hybrid": {
+          "correct": 2045,
+          "rounds": 2555,
+          "brier": 0.14138
+        },
+        "book": {
+          "correct": 2049,
+          "rounds": 2555,
+          "brier": 0.140559
+        }
+      },
+      "entries": {
+        "entries": 12,
+        "wins": 9,
+        "days": 9,
+        "fixed_20_budget": {
+          "starting_balance": 100,
+          "ending_balance": 94.85,
+          "funded": 12,
+          "wins": 9
+        },
+        "gross": 0.13,
+        "net": -0.09,
+        "worse_cent": -0.21
+      }
+    },
+    {
+      "first_expiry": 1772323200,
+      "scores": {
+        "chart": {
+          "correct": 2272,
+          "rounds": 2830,
+          "brier": 0.136489
+        },
+        "incumbent": {
+          "correct": 2270,
+          "rounds": 2830,
+          "brier": 0.138254
+        },
+        "hybrid": {
+          "correct": 2283,
+          "rounds": 2830,
+          "brier": 0.136195
+        },
+        "book": {
+          "correct": 2278,
+          "rounds": 2830,
+          "brier": 0.136205
+        }
+      },
+      "entries": {
+        "entries": 0,
+        "wins": 0,
+        "days": 0,
+        "fixed_20_budget": {
+          "starting_balance": 100,
+          "ending_balance": 100.0,
+          "funded": 0,
+          "wins": 0
+        },
+        "gross": 0.0,
+        "net": 0.0,
+        "worse_cent": 0.0
+      }
+    },
+    {
+      "first_expiry": 1775001600,
+      "scores": {
+        "chart": {
+          "correct": 2268,
+          "rounds": 2799,
+          "brier": 0.136702
+        },
+        "incumbent": {
+          "correct": 2249,
+          "rounds": 2799,
+          "brier": 0.138564
+        },
+        "hybrid": {
+          "correct": 2268,
+          "rounds": 2799,
+          "brier": 0.135256
+        },
+        "book": {
+          "correct": 2265,
+          "rounds": 2799,
+          "brier": 0.134831
+        }
+      },
+      "entries": {
+        "entries": 2,
+        "wins": 1,
+        "days": 1,
+        "fixed_20_budget": {
+          "starting_balance": 100,
+          "ending_balance": 93.32,
+          "funded": 2,
+          "wins": 1
+        },
+        "gross": -0.15,
+        "net": -0.19,
+        "worse_cent": -0.21
+      }
+    },
+    {
+      "first_expiry": 1777593600,
+      "scores": {
+        "chart": {
+          "correct": 2316,
+          "rounds": 2857,
+          "brier": 0.132548
+        },
+        "incumbent": {
+          "correct": 2318,
+          "rounds": 2857,
+          "brier": 0.134254
+        },
+        "hybrid": {
+          "correct": 2330,
+          "rounds": 2857,
+          "brier": 0.130587
+        },
+        "book": {
+          "correct": 2330,
+          "rounds": 2857,
+          "brier": 0.130585
+        }
+      },
+      "entries": {
+        "entries": 1,
+        "wins": 1,
+        "days": 1,
+        "fixed_20_budget": {
+          "starting_balance": 100,
+          "ending_balance": 112.57,
+          "funded": 1,
+          "wins": 1
+        },
+        "gross": 0.41,
+        "net": 0.39,
+        "worse_cent": 0.38
+      }
+    },
+    {
+      "first_expiry": 1780275600,
+      "scores": {
+        "chart": {
+          "correct": 2306,
+          "rounds": 2809,
+          "brier": 0.125845
+        },
+        "incumbent": {
+          "correct": 2316,
+          "rounds": 2809,
+          "brier": 0.128352
+        },
+        "hybrid": {
+          "correct": 2304,
+          "rounds": 2809,
+          "brier": 0.125387
+        },
+        "book": {
+          "correct": 2302,
+          "rounds": 2809,
+          "brier": 0.125652
+        }
+      },
+      "entries": {
+        "entries": 0,
+        "wins": 0,
+        "days": 0,
+        "fixed_20_budget": {
+          "starting_balance": 100,
+          "ending_balance": 100.0,
+          "funded": 0,
+          "wins": 0
+        },
+        "gross": 0.0,
+        "net": 0.0,
+        "worse_cent": 0.0
+      }
+    },
+    {
+      "first_expiry": 1782864000,
+      "scores": {
+        "chart": {
+          "correct": 2365,
+          "rounds": 2918,
+          "brier": 0.132626
+        },
+        "incumbent": {
+          "correct": 2345,
+          "rounds": 2918,
+          "brier": 0.135391
+        },
+        "hybrid": {
+          "correct": 2373,
+          "rounds": 2918,
+          "brier": 0.130718
+        },
+        "book": {
+          "correct": 2371,
+          "rounds": 2918,
+          "brier": 0.130443
+        }
+      },
+      "entries": {
+        "entries": 0,
+        "wins": 0,
+        "days": 0,
+        "fixed_20_budget": {
+          "starting_balance": 100,
+          "ending_balance": 100.0,
+          "funded": 0,
+          "wins": 0
+        },
+        "gross": 0.0,
+        "net": 0.0,
+        "worse_cent": 0.0
+      }
+    },
+    {
+      "first_expiry": 1785542400,
+      "scores": {
+        "chart": {
+          "correct": 2368,
+          "rounds": 2938,
+          "brier": 0.136524
+        },
+        "incumbent": {
+          "correct": 2360,
+          "rounds": 2938,
+          "brier": 0.139246
+        },
+        "hybrid": {
+          "correct": 2379,
+          "rounds": 2938,
+          "brier": 0.134065
+        },
+        "book": {
+          "correct": 2376,
+          "rounds": 2938,
+          "brier": 0.134365
+        }
+      },
+      "entries": {
+        "entries": 1,
+        "wins": 0,
+        "days": 1,
+        "fixed_20_budget": {
+          "starting_balance": 100,
+          "ending_balance": 80.53,
+          "funded": 1,
+          "wins": 0
+        },
+        "gross": -0.68,
+        "net": -0.7,
+        "worse_cent": -0.71
+      }
+    },
+    {
+      "first_expiry": 1788220800,
+      "scores": {
+        "chart": {
+          "correct": 2274,
+          "rounds": 2848,
+          "brier": 0.141717
+        },
+        "incumbent": {
+          "correct": 2267,
+          "rounds": 2848,
+          "brier": 0.142249
+        },
+        "hybrid": {
+          "correct": 2277,
+          "rounds": 2848,
+          "brier": 0.139122
+        },
+        "book": {
+          "correct": 2276,
+          "rounds": 2848,
+          "brier": 0.138934
+        }
+      },
+      "entries": {
+        "entries": 1,
+        "wins": 1,
+        "days": 1,
+        "fixed_20_budget": {
+          "starting_balance": 100,
+          "ending_balance": 108.26,
+          "funded": 1,
+          "wins": 1
+        },
+        "gross": 0.31,
+        "net": 0.29,
+        "worse_cent": 0.28
+      }
+    },
+    {
+      "first_expiry": 1790812800,
+      "scores": {
+        "chart": {
+          "correct": 2293,
+          "rounds": 2928,
+          "brier": 0.146862
+        },
+        "incumbent": {
+          "correct": 2304,
+          "rounds": 2928,
+          "brier": 0.146925
+        },
+        "hybrid": {
+          "correct": 2315,
+          "rounds": 2928,
+          "brier": 0.144172
+        },
+        "book": {
+          "correct": 2310,
+          "rounds": 2928,
+          "brier": 0.143538
+        }
+      },
+      "entries": {
+        "entries": 8,
+        "wins": 3,
+        "days": 8,
+        "fixed_20_budget": {
+          "starting_balance": 100,
+          "ending_balance": 41.52,
+          "funded": 8,
+          "wins": 3
+        },
+        "gross": -1.85,
+        "net": -2.01,
+        "worse_cent": -2.09
+      }
+    },
+    {
+      "first_expiry": 1793491200,
+      "scores": {
+        "chart": {
+          "correct": 1176,
+          "rounds": 1503,
+          "brier": 0.145852
+        },
+        "incumbent": {
+          "correct": 1179,
+          "rounds": 1503,
+          "brier": 0.144966
+        },
+        "hybrid": {
+          "correct": 1188,
+          "rounds": 1503,
+          "brier": 0.144586
+        },
+        "book": {
+          "correct": 1186,
+          "rounds": 1503,
+          "brier": 0.144196
+        }
+      },
+      "entries": {
+        "entries": 0,
+        "wins": 0,
+        "days": 0,
+        "fixed_20_budget": {
+          "starting_balance": 100,
+          "ending_balance": 100.0,
+          "funded": 0,
+          "wins": 0
+        },
+        "gross": 0.0,
+        "net": 0.0,
+        "worse_cent": 0.0
+      }
+    }
+  ],
+  "frozen_weights": [
+    -0.006079281207743095,
+    0.9156343909747083,
+    0.08597076452869983,
+    0.17997634937783197,
+    0.017422264741965527,
+    0.09122220704985028
+  ],
+  "last_training_expiry": 1794864600,
+  "training_rounds": 31187
+}

@@ -1,0 +1,432 @@
+{
+  "archive_distinct_rounds": 31892,
+  "eligible_distinct_rounds": 31629,
+  "eligible_checkpoints": 126445,
+  "worker_all": {
+    "10": {
+      "correct": 22355,
+      "rounds": 31614,
+      "brier": 0.189887
+    },
+    "8": {
+      "correct": 24027,
+      "rounds": 31612,
+      "brier": 0.163258
+    },
+    "6": {
+      "correct": 25459,
+      "rounds": 31607,
+      "brier": 0.137018
+    },
+    "4": {
+      "correct": 26983,
+      "rounds": 31612,
+      "brier": 0.103995
+    }
+  },
+  "monthly_forward_chart": {
+    "10": {
+      "correct": 21317,
+      "rounds": 30052,
+      "brier": 0.189739
+    },
+    "8": {
+      "correct": 22848,
+      "rounds": 30050,
+      "brier": 0.162456
+    },
+    "6": {
+      "correct": 24183,
+      "rounds": 30045,
+      "brier": 0.136052
+    },
+    "4": {
+      "correct": 25661,
+      "rounds": 30050,
+      "brier": 0.104077
+    }
+  },
+  "monthly_forward_distinct_rounds": 30067,
+  "six_minute_priced_monthly": {
+    "chart": {
+      "correct": 23994,
+      "rounds": 29838,
+      "brier": 0.136622
+    },
+    "midpoint": {
+      "correct": 24075,
+      "rounds": 29838,
+      "brier": 0.134909
+    },
+    "even_blend": {
+      "correct": 24069,
+      "rounds": 29838,
+      "brier": 0.135207
+    },
+    "midpoint_minus_chart_brier": -0.001713,
+    "paired_day_bootstrap_95pct": [
+      -0.00218,
+      -0.001259
+    ],
+    "paper": {
+      "entries": 59,
+      "wins": 18,
+      "gross": -5.24,
+      "net": -6.42
+    }
+  },
+  "folds": [
+    {
+      "month": "2026-01",
+      "minutes_left": 10,
+      "trained_on": 1060,
+      "correct": 2124,
+      "rounds": 2939,
+      "brier": 0.184159
+    },
+    {
+      "month": "2026-02",
+      "minutes_left": 10,
+      "trained_on": 3829,
+      "correct": 1859,
+      "rounds": 2624,
+      "brier": 0.191705
+    },
+    {
+      "month": "2026-03",
+      "minutes_left": 10,
+      "trained_on": 6492,
+      "correct": 2001,
+      "rounds": 2873,
+      "brier": 0.194795
+    },
+    {
+      "month": "2026-04",
+      "minutes_left": 10,
+      "trained_on": 9339,
+      "correct": 1963,
+      "rounds": 2801,
+      "brier": 0.189231
+    },
+    {
+      "month": "2026-05",
+      "minutes_left": 10,
+      "trained_on": 12149,
+      "correct": 2026,
+      "rounds": 2862,
+      "brier": 0.192349
+    },
+    {
+      "month": "2026-06",
+      "minutes_left": 10,
+      "trained_on": 15009,
+      "correct": 2018,
+      "rounds": 2811,
+      "brier": 0.186169
+    },
+    {
+      "month": "2026-07",
+      "minutes_left": 10,
+      "trained_on": 17813,
+      "correct": 2074,
+      "rounds": 2925,
+      "brier": 0.186148
+    },
+    {
+      "month": "2026-08",
+      "minutes_left": 10,
+      "trained_on": 20734,
+      "correct": 2092,
+      "rounds": 2938,
+      "brier": 0.189934
+    },
+    {
+      "month": "2026-09",
+      "minutes_left": 10,
+      "trained_on": 23671,
+      "correct": 2015,
+      "rounds": 2848,
+      "brier": 0.191816
+    },
+    {
+      "month": "2026-10",
+      "minutes_left": 10,
+      "trained_on": 26519,
+      "correct": 2080,
+      "rounds": 2928,
+      "brier": 0.191989
+    },
+    {
+      "month": "2026-11",
+      "minutes_left": 10,
+      "trained_on": 29451,
+      "correct": 1065,
+      "rounds": 1503,
+      "brier": 0.188491
+    },
+    {
+      "month": "2026-01",
+      "minutes_left": 8,
+      "trained_on": 1060,
+      "correct": 2291,
+      "rounds": 2939,
+      "brier": 0.155155
+    },
+    {
+      "month": "2026-02",
+      "minutes_left": 8,
+      "trained_on": 3829,
+      "correct": 1959,
+      "rounds": 2623,
+      "brier": 0.166082
+    },
+    {
+      "month": "2026-03",
+      "minutes_left": 8,
+      "trained_on": 6491,
+      "correct": 2174,
+      "rounds": 2872,
+      "brier": 0.162929
+    },
+    {
+      "month": "2026-04",
+      "minutes_left": 8,
+      "trained_on": 9337,
+      "correct": 2153,
+      "rounds": 2801,
+      "brier": 0.160023
+    },
+    {
+      "month": "2026-05",
+      "minutes_left": 8,
+      "trained_on": 12147,
+      "correct": 2169,
+      "rounds": 2862,
+      "brier": 0.167947
+    },
+    {
+      "month": "2026-06",
+      "minutes_left": 8,
+      "trained_on": 15007,
+      "correct": 2192,
+      "rounds": 2811,
+      "brier": 0.1513
+    },
+    {
+      "month": "2026-07",
+      "minutes_left": 8,
+      "trained_on": 17811,
+      "correct": 2218,
+      "rounds": 2925,
+      "brier": 0.160871
+    },
+    {
+      "month": "2026-08",
+      "minutes_left": 8,
+      "trained_on": 20732,
+      "correct": 2252,
+      "rounds": 2938,
+      "brier": 0.162137
+    },
+    {
+      "month": "2026-09",
+      "minutes_left": 8,
+      "trained_on": 23669,
+      "correct": 2141,
+      "rounds": 2848,
+      "brier": 0.166669
+    },
+    {
+      "month": "2026-10",
+      "minutes_left": 8,
+      "trained_on": 26517,
+      "correct": 2189,
+      "rounds": 2928,
+      "brier": 0.169212
+    },
+    {
+      "month": "2026-11",
+      "minutes_left": 8,
+      "trained_on": 29449,
+      "correct": 1110,
+      "rounds": 1503,
+      "brier": 0.167001
+    },
+    {
+      "month": "2026-01",
+      "minutes_left": 6,
+      "trained_on": 1060,
+      "correct": 2388,
+      "rounds": 2939,
+      "brier": 0.12996
+    },
+    {
+      "month": "2026-02",
+      "minutes_left": 6,
+      "trained_on": 3829,
+      "correct": 2103,
+      "rounds": 2618,
+      "brier": 0.138305
+    },
+    {
+      "month": "2026-03",
+      "minutes_left": 6,
+      "trained_on": 6490,
+      "correct": 2316,
+      "rounds": 2874,
+      "brier": 0.1344
+    },
+    {
+      "month": "2026-04",
+      "minutes_left": 6,
+      "trained_on": 9334,
+      "correct": 2270,
+      "rounds": 2801,
+      "brier": 0.136634
+    },
+    {
+      "month": "2026-05",
+      "minutes_left": 6,
+      "trained_on": 12144,
+      "correct": 2317,
+      "rounds": 2860,
+      "brier": 0.13272
+    },
+    {
+      "month": "2026-06",
+      "minutes_left": 6,
+      "trained_on": 15003,
+      "correct": 2308,
+      "rounds": 2812,
+      "brier": 0.125871
+    },
+    {
+      "month": "2026-07",
+      "minutes_left": 6,
+      "trained_on": 17807,
+      "correct": 2370,
+      "rounds": 2924,
+      "brier": 0.132406
+    },
+    {
+      "month": "2026-08",
+      "minutes_left": 6,
+      "trained_on": 20727,
+      "correct": 2368,
+      "rounds": 2938,
+      "brier": 0.136522
+    },
+    {
+      "month": "2026-09",
+      "minutes_left": 6,
+      "trained_on": 23664,
+      "correct": 2274,
+      "rounds": 2848,
+      "brier": 0.141719
+    },
+    {
+      "month": "2026-10",
+      "minutes_left": 6,
+      "trained_on": 26512,
+      "correct": 2293,
+      "rounds": 2928,
+      "brier": 0.146865
+    },
+    {
+      "month": "2026-11",
+      "minutes_left": 6,
+      "trained_on": 29444,
+      "correct": 1176,
+      "rounds": 1503,
+      "brier": 0.145866
+    },
+    {
+      "month": "2026-01",
+      "minutes_left": 4,
+      "trained_on": 1060,
+      "correct": 2534,
+      "rounds": 2939,
+      "brier": 0.100746
+    },
+    {
+      "month": "2026-02",
+      "minutes_left": 4,
+      "trained_on": 3829,
+      "correct": 2250,
+      "rounds": 2624,
+      "brier": 0.103891
+    },
+    {
+      "month": "2026-03",
+      "minutes_left": 4,
+      "trained_on": 6493,
+      "correct": 2463,
+      "rounds": 2874,
+      "brier": 0.099388
+    },
+    {
+      "month": "2026-04",
+      "minutes_left": 4,
+      "trained_on": 9340,
+      "correct": 2399,
+      "rounds": 2801,
+      "brier": 0.098578
+    },
+    {
+      "month": "2026-05",
+      "minutes_left": 4,
+      "trained_on": 12150,
+      "correct": 2479,
+      "rounds": 2861,
+      "brier": 0.095895
+    },
+    {
+      "month": "2026-06",
+      "minutes_left": 4,
+      "trained_on": 15010,
+      "correct": 2452,
+      "rounds": 2811,
+      "brier": 0.09424
+    },
+    {
+      "month": "2026-07",
+      "minutes_left": 4,
+      "trained_on": 17814,
+      "correct": 2523,
+      "rounds": 2925,
+      "brier": 0.098379
+    },
+    {
+      "month": "2026-08",
+      "minutes_left": 4,
+      "trained_on": 20734,
+      "correct": 2490,
+      "rounds": 2938,
+      "brier": 0.110212
+    },
+    {
+      "month": "2026-09",
+      "minutes_left": 4,
+      "trained_on": 23671,
+      "correct": 2381,
+      "rounds": 2848,
+      "brier": 0.116948
+    },
+    {
+      "month": "2026-10",
+      "minutes_left": 4,
+      "trained_on": 26519,
+      "correct": 2441,
+      "rounds": 2927,
+      "brier": 0.118778
+    },
+    {
+      "month": "2026-11",
+      "minutes_left": 4,
+      "trained_on": 29451,
+      "correct": 1249,
+      "rounds": 1502,
+      "brier": 0.110187
+    }
+  ]
+}
